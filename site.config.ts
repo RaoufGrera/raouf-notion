@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Abdalraouf Grera blog',
-  domain: 'rfrf.ly',
+  domain: 'raoufgrera.com',
   author: 'Abdalraouf Grera',
 
   // open graph metadata (optional)
