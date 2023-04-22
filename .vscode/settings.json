@@ -33,5 +33,7 @@
     "**/.now/": true,
     "**/.vercel/": true,
     "**/.google.json": true
-  }
+  },
+  "editor.tabCompletion": "on",
+  "diffEditor.codeLens": true
 }
