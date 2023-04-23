@@ -18,7 +18,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: ls
-    - run: systemctl stop n.service
+    - run: sudo systemctl stop n.service
     - run: npm i --legacy-peer-deps
     - run: npm run build
-    - run: systemctl start n.service
+    - run: sudo systemctl start n.service
