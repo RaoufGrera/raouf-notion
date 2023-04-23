@@ -20,4 +20,5 @@ jobs:
     - run: ls
     - run: npm i
     - run: npm run build
+    - run: sudo systemctl stop n.service
     - run: sudo systemctl start n.service
