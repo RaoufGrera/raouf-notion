@@ -9,8 +9,8 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Abdalraouf Grerablog',
-  domain: 'raoufgrera.com',
+  name: 'Abdalraouf Grera blog',
+  domain: 'Grera.ly',
   author: 'Abdalraouf Grera',
 
   // open graph metadata (optional)
