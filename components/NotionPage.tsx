@@ -280,7 +280,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         footer={footer}
       />
 
-
+      <div className="post-footer"> <section id="isso-thread"></section> <script data-isso="https://isso.grera.ly/" src="https://isso.grera.ly/js/embed.min.js"></script> </div>
     </>
   )
 }
