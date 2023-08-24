@@ -16,7 +16,8 @@ export default class MyDocument extends Document {
               sizes='32x32'
               href='logo2.png'
             />
-
+            <link rel="webmention" href="https://webmention.io/yourdomain.com/webmention" />
+            <link rel="pingback" href="https://webmention.io/yourdomain.com/xmlrpc" />
             <link rel='manifest' href='/manifest.json' />
           </Head>
 
