@@ -16,8 +16,8 @@ export default class MyDocument extends Document {
               sizes='32x32'
               href='logo2.png'
             />
-            <link rel="webmention" href="https://webmention.io/yourdomain.com/webmention" />
-            <link rel="pingback" href="https://webmention.io/yourdomain.com/xmlrpc" />
+            <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
             <link rel='manifest' href='/manifest.json' />
           </Head>
 

@@ -56,13 +56,22 @@ export const NotionPageHeader: React.FC<{
 
               if (link.pageId) {
                 return (
-                  <components.PageLink
+                  <>                  <components.PageLink
                     href={mapPageUrl(link.pageId)}
                     key={index}
                     className={cs(styles.navLink, 'breadcrumb', 'button')}
                   >
                     {link.title}
                   </components.PageLink>
+                    <div id="cusdis_thread"
+                      data-host="https://cusdis.com"
+                      data-app-id="84a9614b-82e0-4650-b108-d91b2dda58d9"
+                      data-page-id={link.pageId}
+                      data-page-url={link.url}
+                      data-page-title={link.title}
+                    ></div>
+
+                  </>
                 )
               } else {
                 return (
