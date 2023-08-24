@@ -280,13 +280,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
         footer={footer}
       />
 
-      <div id="cusdis_thread"
-        data-host="https://cusdis.com"
-        data-app-id="84a9614b-82e0-4650-b108-d91b2dda58d9"
-        data-page-id={pageId}
-        data-page-url={canonicalPageUrl}
-        data-page-title={title}
-      ></div>
 
     </>
   )
