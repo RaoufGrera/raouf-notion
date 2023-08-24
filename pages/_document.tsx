@@ -16,8 +16,7 @@ export default class MyDocument extends Document {
               sizes='32x32'
               href='logo2.png'
             />
-            <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-
+            <script data-isso="https://isso.grera.ly/" src="https://isso.grera.ly/js/embed.min.js"></script>
             <link rel='manifest' href='/manifest.json' />
           </Head>
 
