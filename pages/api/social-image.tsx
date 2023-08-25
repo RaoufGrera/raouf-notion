@@ -59,6 +59,7 @@ export default async function OGImage(req: NextRequest) {
           color: 'black'
         }}
       >
+
         {pageInfo.image && (
           <img
             src={pageInfo.image}

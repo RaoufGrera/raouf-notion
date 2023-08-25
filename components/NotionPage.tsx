@@ -279,6 +279,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageAside={pageAside}
         footer={footer}
       />
+      <div id="remark42"></div>
 
     </>
   )
