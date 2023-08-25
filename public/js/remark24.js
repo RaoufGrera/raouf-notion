@@ -1,4 +1,4 @@
-var remarkConfig = {
+var remark_config = {
     host: 'https://remark24.grera.ly',
     site_id: 'remark',
 };
