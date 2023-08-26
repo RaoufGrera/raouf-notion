@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
               sizes='32x32'
               href='logo2.png'
             />
-            <script data-isso="https://isso.grera.ly/" src="https://isso.grera.ly/js/embed.min.js"></script>
+            {/* <script data-isso="https://isso.grera.ly/" src="https://isso.grera.ly/js/embed.min.js"></script>
             {/* Suppress TypeScript checking for the following script */}
             <script src="https://grera.ly/js/remark24.js"></script>
 

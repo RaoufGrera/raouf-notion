@@ -56,7 +56,8 @@ export const NotionPageHeader: React.FC<{
 
               if (link.pageId) {
                 return (
-                  <>                  <components.PageLink
+
+                  <components.PageLink
                     href={mapPageUrl(link.pageId)}
                     key={index}
                     className={cs(styles.navLink, 'breadcrumb', 'button')}
@@ -65,7 +66,7 @@ export const NotionPageHeader: React.FC<{
                   </components.PageLink>
 
 
-                  </>
+
                 )
               } else {
                 return (

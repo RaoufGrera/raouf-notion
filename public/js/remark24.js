@@ -1,5 +1,5 @@
 var remark_config = {
-    host: 'https://remark24.grera.ly',
+    host: 'https://remark42.grera.ly',
     site_id: 'remark',
 };
 
