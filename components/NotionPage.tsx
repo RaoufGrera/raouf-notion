@@ -240,7 +240,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const socialDescription =
     getPageProperty<string>('Description', block, recordMap) ||
     config.description
-  const [isClient, setIsClient] = React.useState(false)
 
   return (
     <>
@@ -280,7 +279,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageAside={pageAside}
         footer={footer}
       />
-      {isClient && <div id="remark42"></div>}
+      <div id="remark42"></div>
     </>
   )
 }
