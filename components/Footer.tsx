@@ -36,7 +36,7 @@ export const FooterImpl: React.FC = () => {
   return (
     <>
 
-      <div id="remark42"></div>
+      <div id="remark42" className='notion-page notion-page-has-cover notion-page-has-icon notion-page-has-image-icon notion-full-page'></div>
 
 
       <footer className={styles.footer}>
