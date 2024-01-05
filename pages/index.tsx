@@ -1,10 +1,11 @@
-import * as React from 'react'
+import { useEffect } from 'react';
 
 import { NotionPage } from '@/components/NotionPage'
 import { domain } from '@/lib/config'
 import { resolveNotionPage } from '@/lib/resolve-notion-page'
 
 export const getStaticProps = async () => {
+
   try {
     const props = await resolveNotionPage(domain)
 
@@ -19,5 +20,6 @@ export const getStaticProps = async () => {
 }
 
 export default function NotionDomainPage(props) {
+
   return <NotionPage {...props} />
 }

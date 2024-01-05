@@ -149,6 +149,12 @@ export const NotionPage: React.FC<types.PageProps> = ({
 }) => {
   const router = useRouter()
   const lite = useSearchParam('lite')
+  React.useEffect(() => {
+    const divsss = document.querySelectorAll('div');
+    divsss.forEach((div) => {
+      div.dir = 'auto';
+    });
+  }, [])
 
   const components = React.useMemo(
     () => ({
@@ -211,13 +217,16 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   const title = getBlockTitle(block, recordMap) || site.name
 
-  console.log('notion page c', {
-    isDev: config.isDev,
-    title,
-    pageId,
-    rootNotionPageId: site.rootNotionPageId,
-    recordMap
-  })
+  //console.log('notion page c', {  isDev: config.isDev,   title,   pageId,   rootNotionPageId: site.rootNotionPageId, recordMap});
+  if (typeof document !== 'undefined') {
+    const divss = document.querySelectorAll('div');
+    divss.forEach((div) => {
+      div.dir = 'auto';
+    });
+    // console.log(divss);
+    // Manipulating the DOM here
+  }
+
 
   if (!config.isServer) {
     // add important objects to the window global for easy debugging

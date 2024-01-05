@@ -55,6 +55,8 @@ export default function App({ Component, pageProps }: AppProps) {
       posthog.init(posthogId, posthogConfig)
     }
 
+
+
     router.events.on('routeChangeComplete', onRouteChangeComplete)
 
     return () => {
