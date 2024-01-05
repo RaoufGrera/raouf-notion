@@ -69,6 +69,8 @@ export default class MyDocument extends Document {
 
             <NextScript />
           </body>
+          <script src="https://grera.ly/js/arabic.js"></script>
+
         </Html>
       </IconContext.Provider>
     )
