@@ -36,11 +36,11 @@ export const FooterImpl: React.FC = () => {
   return (
     <>
 
-      <div id="remark42 " className='notion-page t notion-page-has-cover notion-page-has-icon notion-page-has-image-icon notion-full-page'></div>
+      <div id="remark42" className='notion-page t notion-page-has-cover notion-page-has-icon notion-page-has-image-icon notion-full-page'></div>
 
 
       <footer className={styles.footer}>
-        <div className={styles.copyright}>Copyright 2023 {config.author}</div>
+        <div className={styles.copyright}>Copyright 2024 {config.author}</div>
 
         <div className={styles.settings}>
           {hasMounted && (
