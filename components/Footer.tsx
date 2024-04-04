@@ -40,7 +40,7 @@ export const FooterImpl: React.FC = () => {
 
 
       <footer className={styles.footer}>
-        <div className={styles.copyright}>Copyright 2024 {config.author}</div>
+        <div className={styles.copyright}> Copyright 2024 {config.author}</div>
 
         <div className={styles.settings}>
           {hasMounted && (
