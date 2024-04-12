@@ -19,7 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   twitter: 'raoufgr',
   github: 'RaoufGrera',
-  linkedin: 'raoufgr',
+  linkedin: 'raoufgrera',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
