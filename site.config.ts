@@ -17,7 +17,7 @@ export default siteConfig({
   description: 'Blog talking about programming language and explore AI',
 
   // social usernames (optional)
-  twitter: 'raoufgr',
+  twitter: 'raoufgrera',
   github: 'RaoufGrera',
   linkedin: 'raoufgrera',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
